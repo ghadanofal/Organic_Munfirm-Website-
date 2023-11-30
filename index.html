@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>munfirm</title>
+    <link rel="icon" href="asset/img/home/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Munfirm is fully responsive, Agriculture &amp; Organic Food Joomla 4 Template for  Agriculture, Fruits &amp; Vegetable, Beekeeping, dairy farm, organic food">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontowesome/all.min.css">
+    <link rel="stylesheet" href="vendor/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="asset/css/main.css">
+    <!-- <link rel="stylesheet" href="asset/css/main.mini.css"> -->
+    <link rel="stylesheet" href="asset/css/media.css">
+    <!-- <link rel="stylesheet" href="asset/css/media.mini.css"> -->
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="loading bg-white position-fixed w-100 d-flex justify-content-center align-items-center vh-100 z-3">
+        <span class="loader"></span>
+    </div>
+    <div class="scroll-up position-fixed z-3 opacity-0 invisible">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg fixed-top z-2">
+    <div class="container-fluid  ">
+
+    <a class="navbar-brand logo" href="#">
+        <img src="asset/img/home/logo101.png" class="img-fluid" alt="logo">
+    </a>
+    
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5  mb-2 mb-lg-0">
+            <li class="nav-item p-0 ">
+                <a class="nav-link active  " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-0 ">
+                <a class="nav-link " href="portfolio.html" aria-disabled="true">portfolio</a>
+            </li>
+            <li class="nav-item p-0 ">
+                <a class="nav-link  " href="blog.html" aria-disabled="true">Blog</a>
+            </li>
+            <li class="nav-item p-0 ">
+                <a class="nav-link  " href="shop.html" aria-disabled="true">shop</a>
+            </li>
+            <li class="nav-item p-0 last d-flex justify-content-lg-center align-items-lg-center ">
+                <a class="nav-link  " href="contact.html" aria-disabled="true">contact</a>
+                <i class="fas fa-shopping-basket"></i>
+            </li>
+            </ul> 
+        </div> 
+
+        <div class="consultant d-flex justify-content-center align-items-center  column-gap-5">
+        <a href="#" class="text-dark ">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        </a>
+        <div class="custom-btn shop bg-orange-color  rounded-2 fw-bolder text-center   ">
+            <span  class="text-capitalize text-white ">consultant</span>
+            <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+        </div>
+        
+
+        <div id="overlay"></div>
+
+        <div id="menu-button">
+            <div class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="offcanvas" class="hidden" class=" ">
+                
+                <div id="close-button" class="d-flex justify-content-end fs-3 text-orange">X</div> 
+                <!-- Submit form in the off-canvas menu -->
+                <div id="form-container" class="form-container" style="
+                background-color: #444;" >
+                    <h2 class="text-capitalize text-center fs-5 mt-4">get appoinment</h2>
+                    <form id="submit-form" class="">
+                        <form action="#" method="post" class="py-5 my-4">
+                            <div class="row justify-content-center mt-4">
+                                <div class="col-md-10">
+                                    <input type="text" id="inputname" class="mx-1 form-control  shadow-non contact-item mb-2"  placeholder="Name" aria-describedby="passwordHelpBlock">
+                                </div>
+            
+                                <div class="col-md-10">
+                                    <input type="email" id="inputemail" class="mx-1 form-control  shadow-non contact-item mb-2" style="
+                background-color: #444;" placeholder="Email" aria-describedby="passwordHelpBlock">
+                                </div>
+            
+                                <div class="col-md-10">
+                                    <input type="text" id="inputaddress" class="mx-1 form-control  shadow-non contact-item my-2" style="
+                background-color: #444;" placeholder="Address" aria-describedby="passwordHelpBlock">
+                                </div>
+            
+                                <div class="col-md-10">
+                                    <textarea class="mx-1 form-control shadow-none   contact-item  my-2" placeholder="Message.." style="
+                background-color: #444;" id="exampleFormControlTextarea1" rows="7"></textarea>
+                                </div>
+                                
+                                
+                                <div class="col-sm-10 col-md-10 col-lg-10 my-4">
+                                    <div class="custom-btn submitee  bg-orange-color   rounded-2 fw-bolder text-center   ">
+                                    <span  class="text-capitalize text-white ">submite now</span>
+                                    <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                                    </div>        
+                                </div>
+            
+                            </div>
+                    </form>
+                    </form>
+                </div>
+        </div>
+        
+    </div>
+
+
+
+</nav>
+
+
+    <!-- start header -->
+    <header class="header  position-relative" id="header">
+        <div class="container-fluid">
+            <div class="back position-absolute top-0 ">
+                <img src="asset/img/home/logo102.png" class="w-75" alt="background image">
+            </div>
+            <div class="apple position-absolute">
+                <img src="asset/img/home/logo104.png" class="w-75" alt="apple">
+            </div>
+            <div class="paper1 position-absolute  ">
+                <img src="asset/img/home/logo105.png" class="w-75" alt="paper">
+            </div>
+            <div class="paper2 position-absolute bottom-0  ">
+                <img src="asset/img/home/logo106.png" class="w-75" alt="paper">
+            </div>
+            <div class="paper3 position-absolute">
+                <img src="asset/img/home/logo107.png" class="w-75" alt="paper">
+            </div>
+
+
+
+            <div id="carouselExampleAutoplaying" class="carousel slide h-100" data-bs-ride="carousel">
+    <div class="carousel-inner 0">
+        <div class="container my-5">
+            <div class="carousel-item active my-5 soso">
+        <div class="row header-content my-5 h-100 justify-content-center   ">
+            
+
+            <div class="col-sm-12 col-md-6 col-lg-6  my-5 ">
+                <div class="left-side-content ">
+                    <h6>Welcome to Munfirm</h6>
+                    <h1>Organic Foods & Vegetables</h1>
+                    <p>25 Years of experience in agriculture farming</p>
+                    <div class="d-flex buttons ">
+                        <div class="custom-btn shop  bg-orange-color m-3 ms-0 rounded-2 fw-bolder text-center   ">
+                            <span  class="text-capitalize text-white ">shop now</span>
+                            <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                        </div>
+                    <div class="custom-btn learn bg-green m-3  rounded-2 fw-bolder position">
+                            <span  class="text-capitalize text-white text-start ">learn more</span>
+                            <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                        </div>  
+                    </div>   
+                </div>   
+            </div>
+            <div class="col-lg-6">
+                <div class="right-side-content position-relative  ">
+                <img src="asset/img/home/logo109.png" class="img-fluid " alt="orange image">
+                </div>
+                <div class="organic-logo position-absolute ">
+                    <img src="asset/img/home/logo110.png" alt="organic logo">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="carousel-item lolo">
+            <div class="row my-5 h-100 justify-content-center   ">
+            
+            <div class="col-lg-6">
+                <div class="right-side-content  position-relative ">
+                <img src="asset/img/home/logo111.png" class="img-fluid " alt="orange image">
+                </div>
+                <div class="organic-logo1 position-absolute ">
+                    <img src="asset/img/home/logo110.png" alt="organic logo">
+                </div>
+            </div>
+                <div class="col-lg-6  my-5 ">
+                    <div class="left-side-content ">
+                        <h6>Welcome to Munfirm</h6>
+                        <h1>Organic Foods & Vegetables</h1>
+                        <p>25 Years of experience in agriculture farming</p>
+                        <div class="d-flex buttons ">
+                        <div class="custom-btn shop  bg-orange-color m-3 ms-0 rounded-2 fw-bolder text-center   ">
+                                <span  class="text-capitalize text-white ">shop now</span>
+                                <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                        </div>
+                        <div class="custom-btn learn bg-green m-3  rounded-2 fw-bolder position">
+                                <span  class="text-capitalize text-white text-start ">learn more</sp>
+                                <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                        </div>  
+                        </div>   
+                    </div>   
+                </div>
+            </div>  
+        </div>
+    </div>
+        </div>
+
+    <button class="carousel-control-prev  top-50  buttn   " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="visually-hidden">Previous</span>
+        <i class="fa fa-angle-left"></i>
+    </button>
+    <button class="carousel-control-next  top-50  buttn " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="visually-hidden">Next</span>
+        <i class="fa fa-angle-right"></i>
+    </button>
+</div>
+        </div>
+    </header>
+        
+        
+
+    <!--  start popular food and vegetable section -->
+    <section class="second food mb-5" id="food">
+        <div class="container py-5">
+            <div class="row   py-5">
+            <div class="col-md-6 col-lg-7 ">
+                <div class="title">
+                <h6>Popular Foods And Vegetables</h6>
+                <h2>Quality Fruits & Vegetables</h2>
+                </div>
+                </div>
+            <div class="col-md-6 col-lg-5  px-2">
+                <div class="details">
+                <p>
+                On the other hand we denounce with righteou indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire
+                </p>    
+                </div>    
+            </div>
+            </div>
+
+
+            <div class="row ">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="food-card text-center foods1  p-4 m-auto    ">
+                        <div class="shadow m-auto ">
+                        <img src="asset/img/home/logo112.png" class="img-fluid" alt="strawberry">
+                        </div>
+                        <h3 class="py-3">Organic Fruits</h3>
+                        <img src="asset/img/home/logo113.png" class="img-fluid" alt="green-line">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="food-card text-center foods2 p-4 m-auto    ">
+                        <div class="shadow m-auto ">
+                        <img src="asset/img/home/logo114.png" class="img-fluid" alt="pineapple">
+                        </div>
+                        <h3 class="py-3">Vegetables</h3>
+                        <img src="asset/img/home/logo113.png" class="img-fluid" alt="green-line">
+                    </div>  
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="food-card text-center foods3 p-4 m-auto">
+                        <div class="shadow m-auto ">
+                        <img src="asset/img/home/logo115.png" class="img-fluid" alt="shrimp">
+                        </div>
+                        <h3 class="py-3">Sea Fish’s</h3>
+                        <img src="asset/img/home/logo113.png" class="img-fluid" alt="green-line">
+                    </div> 
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="food-card text-center foods4 p-4 m-auto    ">
+                        <div class="shadow m-auto ">
+                        <img src="asset/img/home/logo116.png" class="img-fluid" alt="hread">
+                        </div>
+                        <h3 class="py-3">Crisp Bakery</h3>
+                        <img src="asset/img/home/logo113.png" class="img-fluid" alt="green-line">
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start about -->
+<section class="about" id="about">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-5 ">
+                <div class="farmers position-relative">
+                <div class="row">
+                    <div class="col-md-6 mb-4 d-flex align-items-center justify-content-center ">
+                        <img src="asset/img/home/logo117.jpg" class="w-100" alt="farmer">
+                    </div>
+                    <div class="col-md-6 d-flex flex-column row-gap-4 ">
+                        <img src="asset/img/home/logo118.jpg" class="img-fluid" alt="farmer">
+                        <img src="asset/img/home/logo119.jpg" class="img-fluid mb-5" alt="farmer">
+                    </div>
+                    <div class="organic-logo3 position-absolute w-50  ">
+                        <img src="asset/img/home/logo110.png" class="img-fluid" alt="organic logo">
+                    </div>
+                </div>    
+                </div>
+            </div>
+            
+
+                <div class="col-lg-6 offset-lg-1">
+                <div class="title mb-4">
+                    <h6>About Company</h6>
+                    <h2>Organic & Helathy Foods Provider Farming</h2>
+                </div>
+
+
+                <ul class="nav  nav-tabs justify-content-start justify-content-md-around" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link active px-lg-5 py-lg-4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"> Agriculture <br> & Foods</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link px-lg-5 py-lg-4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"> Vegetables <br> & Fruite</button>
+                        </li>
+                </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="details py-3">
+                            <p>
+                                On the other hand we denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms of pleasure of the moment so blinded by desire, that they cannot foresee the pain
+                            </p>    
+                            </div>
+                            
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div class="details py-3 ">
+                                <p>
+                                    On the other hand we denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms of pleasure of the moment so blinded by desire, that they cannot foresee the pain
+                                </p>    
+                                </div>
+                        </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 col-lg-8 d-flex justify-content-center column-gap-3">
+                                <img src="asset/img/home/logo120.jpg" alt="Photo for the CEO of the company">
+                                <div class="ceo-info">
+                                <h4>Michael D. Foreman</h4>
+                                <p class="text-green fw-semibold">CEO & Founder</p>    
+                                </div>  
+                            </div>
+                            <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                                <img src="asset/img/home/logo121.png" class="img-fluid" alt="signature">
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- start OFF food section -->
+<section class="off-food py-5" id="off-food">
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-lg-4 ">
+                <div class="off-food-card card1 d-flex justify-content-center align-items-center py-4 px-5 ">
+                    <div >
+                        <h6 class="text-green">35% Off Foods</h6>
+                        <h3 class="my-3 ">Organic Vegetables</h3>
+                        <p>Best Foods For Your Family</p>
+                        <div class="custom-btn shop  bg-green m-3 ms-0 rounded-2 fw-bolder text-center   ">
+                        <span  class="text-capitalize text-white ">shop now</span>
+                        <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                        </div>   
+                    </div>
+                    <div >
+                    <img src="asset/img/home/logo123.png" class="img-fluid" alt="prockly">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  ">
+                <div class="off-food-card card2 d-flex justify-content-center align-items-center my-3  p-4   ">
+                    <div >
+                        <h6 class="text-orange ">35% Off Foods</h6>
+                        <h3 class="my-3">Organic Fruits</h3>
+                        <p>Best Foods For Your Family</p>
+                        <div class="custom-btn shop  bg-green m-3 ms-0 rounded-2 fw-bolder text-center   ">
+                        <span  class="text-capitalize text-white ">shop now</span>
+                        <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                        </div>   
+                    </div>
+                    <div >
+                    <img src="asset/img/home/logo125.png" class="img-fluid" alt="orange">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="off-food-card card3 d-flex justify-content-center align-items-center py-4 px-5 ">
+                    <div >
+                        <h6 class="text-green">35% Off Foods</h6>
+                        <h3 class="my-3">Ripe Strawberries</h3>
+                        <p>Best Foods For Your Family</p>
+                        <div class="custom-btn shop  bg-green m-3 ms-0 rounded-2 fw-bolder text-center   ">
+                        <span  class="text-capitalize text-white ">shop now</span>
+                        <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                        </div>   
+                    </div>
+                    <div >
+                    <img src="asset/img/home/logo127.png" class="img-fluid" alt="strawberry">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--  start quality food and voting -->
+<section class="vote-for-quality py-5 my-5 " id="vote-for-quality">
+    <div class="container-fluid mb-5">
+        <div class="d-flex justify-content-center align-items-center text-center pb-5">
+        <div class="title ">
+            <h6>Popular Foods And Vegetables</h6>
+            <h2>Quality Fruits & Vegetables</h2>
+        </div>    
+        </div>
+        
+        <div class="row gx-1 gy-2 ">
+            <div class="col-sm-12 col-md-4  col-lg-2 vote  text-center py-4">
+                <img src="asset/img/home/logo129.png" class="OFF d-flex justify-content-start ps-2 mb-3   " alt="sale logo">
+                <a href="#">
+                <img src="asset/img/home/logo128.png" class="img-fluid mt-2" alt="Brokoli">    
+                </a>
+                <ul class="ratings d-flex justify-content-center  pt-5">
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                </ul>
+            <div class="food-info">
+                <a href="#" class="py-1">Organic Brocolli</a>
+                <span class="text-decoration-line-through fw-bold ">$25.00</span>
+                <span class="text-green fw-bold ">$18.00</span>
+            </div>        
+        </div>
+
+
+        <div class="col-sm-12 col-md-4  col-lg-2 vote text-center py-4  ">
+                <a href="#">
+                    <img src="asset/img/home/logo131.png" class="img-fluid mt-4 pt-4" alt="carrot">    
+                    </a>
+                    <ul class="ratings d-flex justify-content-center   pt-5 ">
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                    </ul>    
+            <div class="food-info ">
+                <a href="#" class="py-1">Fresh Carrots</a>
+                <span class="text-decoration-line-through fw-bold ">$55.00</span>
+                <span class="text-green fw-bold ">$48.00</span>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4  col-lg-2 vote text-center py-4 ">
+                <img src="asset/img/home/logo132.png" class="OFF d-flex justify-content-start ps-2 mb-3  " alt="sale logo">
+                <a href="#">
+                <img src="asset/img/home/logo128.png" class="img-fluid mt-2" alt="Brocolli">    
+                </a>
+                <ul class="ratings d-flex justify-content-center  pt-5">
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                </ul>
+            <div class="food-info   ">
+                <a href="#" class="py-1">Organic Brocolli</a>
+                <span class="text-decoration-line-through fw-bold ">$25.00</span>
+                <span class="text-green fw-bold ">$18.00</span>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4  col-lg-2 vote text-center py-3">
+                <a href="#">
+                    <img src="asset/img/home/logo133.png" class="img-fluid my-5 pt-4" alt="Fresh Gooseberry">    
+                    </a>
+                    <ul class="ratings d-flex justify-content-center  pt-3  ">
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                        <li class="star"><i class="fa fa-star checked"></i></li>
+                    </ul>    
+            <div class="food-info ">
+                <a href="#" class="">Fresh <br> Gooseberry</a>
+                <span class="text-decoration-line-through fw-bold ">$55.00</span>
+                <span class="text-green fw-bold ">$48.00</span>
+            </div>
+        </div>    
+
+        <div class="col-sm-12 col-md-4  col-lg-2 vote text-center py-4 ">
+                <img src="asset/img/home/logo135.png" class="OFF d-flex justify-content-start ps-2 mb-3  " alt="sale logo">
+                <a href="#">
+                <img src="asset/img/home/logo134.png" class="img-fluid mt-2" alt="Chiken Egg">    
+                </a>
+                <ul class="ratings d-flex justify-content-center  pt-5">
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                </ul>
+            <div class="food-info   ">
+                <a href="#" class="py-1">Chiken Egg</a>
+                <span class="text-decoration-line-through fw-bold ">$55.00</span>
+                <span class="text-green fw-bold "> $48.00</span>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-4  col-lg-2 vote  text-center py-4">
+                <img src="asset/img/home/logo129.png" class="OFF d-flex justify-content-start ps-2 mb-3   " alt="sale logo">
+                <a href="#">
+                <img src="asset/img/home/logo136.png" class="img-fluid mt-2" alt="Bread">    
+                </a>
+                <ul class="ratings d-flex justify-content-center  pt-5 mt-4">
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                    <li class="star"><i class="fa fa-star checked"></i></li>
+                </ul>
+            <div class="food-info">
+                <a href="#" class="py-1">Organic Brocolli</a>
+                <span class="text-decoration-line-through fw-bold ">$25.00</span>
+                <span class="text-green fw-bold ">$18.00</span>
+            </div>
+            
+        </div>
+
+    </div>
+    </div>
+</section>
+
+
+<!-- start videos section -->
+<section class="videos  position-relative py-5 mt-5 " id="videos">
+    <div class="container mt-5">
+        <!-- <iframe width="1000" height="360" class="position-absolute z-0" src="https://www.youtube.com/embed/iXIUM3IIE9w" title="Do I Need To Eat 100 % Organic Food? – Dr. Berg"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        <div class="video py-5 text-center text-white  position-absolute  ">            
+            <img src="asset/img/home/leaves_1490749.png" class="leaf text-warning" alt="leaf">
+            <h6 class="py-3 text-capitalize">watch vedios</h6>
+            <a href="https://www.youtube.com/watch?v=iXIUM3IIE9w" target="_blank" ><i class="fa-solid fa-caret-right"> </i></a>
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- start off for fruit section -->
+<section class="off-fruit py-5 position-relative " id="off-fruit">
+    
+        <div class="mt-5 pt-5 d-flex justify-content-center align-items-center text-center pb-5">
+            <div class="title mt-5  pt-5">
+                <h6 class="mt-5 ">35% Off for Fruits</h6>
+                <h2>Special Deal Of This Week</h2>
+            <div class="details">
+            <p class="w-67 text-center m-auto   ">
+                On the other hand we denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms
+            </p>    
+            </div>
+            </div>
+            </div>
+
+            <div class="left-orange position-absolute start-0">
+                <img src="asset/img/home/logo141.png" class="w-75 " alt="orange">
+            </div>
+            <div class="right-orange position-absolute end-0 bottom-0">
+                <img src="asset/img/home/logo142.png" class="w-100 " alt="orange">
+            </div>
+            <div class="right-bathengan position-absolute  ">
+                <img src="asset/img/home/logo139.png" class="img-fluid " alt="eggplant">
+            </div>
+            <div class="cherry position-absolute  ">
+                <img src="asset/img/home/logo140.png" class="img-fluid " alt="grapes">
+            </div>
+
+
+
+            
+        <div class="container-fluid">    
+            <div class="row timers justify-content-center flex-wrap column-gap-5  gy-5 gx-1 ">
+            <div class="col-sm-2  col-md-2 col-lg-1  ">
+            <div class="timer  d-flex flex-column  align-items-center justify-content-center">
+            <div class="time bg-white d-flex align-items-center justify-content-center rounded-2 text-center">
+            <h4 class="text-green p-0 m-0 " id="days"></h4>    
+            </div>
+            <p class=" pt-3 text-capitalize">days</p>    
+            </div>
+        </div>
+
+        <div class="col-sm-2  col-md-2 col-lg-1 w-sm-30">
+            <div class="timer d-flex flex-column  align-items-center justify-content-center">
+            <div class="time bg-white d-flex align-items-center justify-content-center rounded-2 text-center">
+            <h4 class="text-green p-0 m-0" id="hours"></h4>    
+            </div>
+            <p class="pt-3 text-capitalize">hours</p>    
+            </div>
+        </div>
+        <div class="col-sm-2  col-md-2 col-lg-1 w-sm-30">
+            <div class="timer d-flex flex-column  align-items-center justify-content-center">
+            <div class="time bg-white d-flex align-items-center justify-content-center rounded-2 text-center">
+            <h4 class="text-green p-0 m-0" id="minutes"></h4>    
+            </div>
+            <p class="pt-3 text-capitalize">minutes</p>    
+            </div>
+        </div>
+        <div class="col-sm-2  col-md-2 col-lg-1 w-sm-30">
+            <div class="timer d-flex flex-column  align-items-center justify-content-center">
+            <div class="time bg-white d-flex align-items-center justify-content-center rounded-2 text-center">
+            <h4 class="text-green p-0 m-0" id="seconds"></h4>    
+            </div>
+            <p class="pt-3 text-capitalize">seconds</p>    
+            </div>
+        </div>
+    </div>
+</div> 
+
+    <div class="d-flex justify-content-center my-4  ">
+        <div class="custom-btn shop  bg-orange-color m-3 ms-0 rounded-2 fw-bolder text-center   ">
+            <span  class="text-capitalize text-white ">shop now</span>
+            <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+        </div>
+    <div class="custom-btn learn bg-green  m-3 rounded-2 fw-bolder position">
+            <span  class="text-capitalize text-white text-start ">use code</span>
+            <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+        </div>  
+    </div>
+    
+
+    <div class="support z-1 align-items-center  text-center text-white rounded-4 position-absolute ">
+        <div class="container  w-100 text-center">
+            <div class="row pe-md-5 py-md-4">
+            <div class="col-sm-12 col-md-8  mt-2">
+                <div class="support-info text-center">
+                <h6 class=" text-white ">Need Any Supports</h6>
+                <h2 class="fs-4">Get Our Quality Foods</h2>
+                </div>    
+            </div>
+            <div class="col-sm-12  col-md-4 ">
+                <div class=" d-flex justify-content-center my-3 align-items-center column-gap-3">
+                <div class="custom-btn  get-in-touch bg-tranparent  rounded-2 fw-bolder position">
+                        <span  class="text-capitalize text-white text-start">get in touch</span>
+                        <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                </div>   
+                </div>
+            </div>    
+            </div>
+        </div>
+    </div>    
+
+</section>
+
+<section class="photos py-5 mt-5" id="photos">
+    <div class="container py-5">
+            <div class="title py-5 ">
+                <h6>Photo Gallery</h6>
+                <h2>Insite Photo Gallery</h2>
+            </div>    
+        </div>
+        
+            <div class="owl-carousel owl-theme photo">
+                
+                <div class="item">
+                    <div class="photo position-relative w-100">
+                        <img src="asset/img/home/logo144.jpg" class="w-100" alt="organic fruit">
+                        
+                        <div class="card-info py-3 position-absolute w-90  rounded-3 bg-white d-flex justify-content-around align-items-center">
+                        <div class="content text-capitalize">
+                            <h4>organic fruit</h4>
+                            <span>vegetable</span>
+                        </div>
+                        <i class="fa-regular fa-circle-right arrow"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="item">
+                    <div class="photo position-relative w-100">
+                        <img src="asset/img/home/logo147.jpg" class="w-100" alt="organic fruit">
+                        
+                        <div class="card-info py-3 position-absolute w-90  rounded-3 bg-white d-flex justify-content-around align-items-center">
+                        <div class="content text-capitalize">
+                            <h4>organic fruit</h4>
+                            <span>vegetable</span>
+                        </div>
+                        <i class="fa-regular fa-circle-right arrow"></i>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="item">
+                    <div class="photo position-relative w-100">
+                        <img src="asset/img/home/logo145.jpg" class="w-100" alt="organic fruit">
+                        
+                        <div class="card-info py-3 position-absolute w-90  rounded-3 bg-white d-flex justify-content-around align-items-center">
+                        <div class="content text-capitalize">
+                            <h4>organic fruit</h4>
+                            <span>vegetable</span>
+                        </div>
+                        <i class="fa-regular fa-circle-right arrow"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="photo position-relative w-100">
+                        <img src="asset/img/home/logo146.jpg" class="w-100" alt="organic fruit">
+                        <div class="card-info py-3 position-absolute w-90  rounded-3 bg-white d-flex justify-content-around align-items-center">
+                        <div class="content text-capitalize">
+                            <h4>organic fruit</h4>
+                            <span>vegetable</span>
+                        </div>
+                        <i class="fa-regular fa-circle-right arrow"></i>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<!-- start reviews section -->
+<section class="reviews position-relative py-5" id="reviews">
+    <div class="container py-5">
+        <div class="row  ">
+            <div class="col-lg-6">
+                <div class="title mb-4">
+                    <h6>Customer Reviews</h6>
+                    <h2>Valuable Customer’s Feedback (Reviews)</h2>
+                </div>
+
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators  ms-0 mb-0 justify-content-start ">
+                        <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="review  my-5">
+                            <div class="qoute">
+                                <i class="fas fa-quote-left text-green"></i>
+                                <span>Suspendisse ultrices gravid aisuscom viverra maecenas accumsan facilisis Sit amet elitt adipiscing eiusmod tempor incididunt labore et dolore magna aliqua euis ipsum</span>
+                                <i class="fas fa-quote-left text-green"></i>
+                            </div>
+                            <ul class="star  d-flex pt-4">
+                                <li class="star1"><i class="fa fa-star"></i></li>
+                                <li class="star1"><i class="fa fa-star"></i></li>
+                                <li class="star1"><i class="fa fa-star"></i></li>
+                                <li class="star1"><i class="fa fa-star"></i></li>
+                                <li class="star1"><i class="fa fa-star"></i></li>
+                            </ul>
+
+                            <div class="customer-info d-flex  ">
+                                <div>
+                                <img src="asset/img/home/logo148.png" class="img-fluid" alt="founder of the company">
+                                </div>
+                                <div class="custom-rev-info text-capitalize ps-3">
+                                    <h5 class="m-0 p-0">robert hasib</h6>
+                                    <span class="text-orange fs-5 m-0 p-0">co-foinder</span>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review  my-5">
+                                <div class="qoute">
+                                    <i class="fas fa-quote-left text-green"></i>
+                                    <span>Suspendisse ultrices gravid aisuscom viverra maecenas accumsan facilisis Sit amet elitt adipiscing eiusmod tempor incididunt labore et dolore magna aliqua euis ipsum</span>
+                                    <i class="fas fa-quote-left text-green"></i>
+                                </div>
+                                <ul class="star d-flex pt-4">
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                </ul>
+    
+                                <div class="customer-info d-flex  ">
+                                    <div>
+                                    <img src="asset/img/home/logo148.png" class="img-fluid" alt="founder of the company">
+                                    </div>
+                                    <div class="custom-rev-info text-capitalize ps-3">
+                                        <h5 class="m-0 p-0">mechael d. foreman</h6>
+                                        <span class="text-orange fs-5 m-0 p-0">CEO & foinder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="review  my-5">
+                                <div class="qoute">
+                                    <i class="fas fa-quote-left text-green"></i>
+                                    <span>Suspendisse ultrices gravid aisuscom viverra maecenas accumsan facilisis Sit amet elitt adipiscing eiusmod tempor incididunt labore et dolore magna aliqua euis ipsum</span>
+                                    <i class="fas fa-quote-left text-green"></i>
+                                </div>
+                                <ul class="star d-flex pt-4">
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                    <li class="star1"><i class="fa fa-star"></i></li>
+                                </ul>
+    
+                                <div class="customer-info d-flex  ">
+                                    <div>
+                                    <img src="asset/img/home/logo148.png" class="img-fluid" alt="founder of the company">
+                                    </div>
+                                    <div class="custom-rev-info text-capitalize ps-3">
+                                        <h5 class="m-0 p-0">mechael d. foreman</h6>
+                                        <span class="text-orange fs-5 m-0 p-0">CEO & foinder</span>
+                                    </div>
+                                </div>
+                            </div>                        </div>
+                        </div>    
+                    </div>
+
+            </div>
+            <div class="col-lg-5 offset-lg-1 right-review-section position-relative z-1 mt-5 pt-5 ">
+                <img src="asset/img/home/logo151.jpg" class="old-farmer img-fluid my-4" alt="farmer">
+                <img src="asset/img/home/logo150.png" class="position-absolute cut-orange" alt="sliced orange">
+                        <img src="asset/img/home/logo152.png" class="w-25 position-absolute two" alt="garlic">
+            </div>
+        </div>
+        <!-- <div class="position-absolute">
+        </div> -->
+    </div>
+</section>
+
+    <!--  start artical and news section -->
+    <section class="news position-relative py-5 z-1 " id="news">
+        <div class="container py-5">
+            <div class="d-flex justify-content-center align-items-center text-center pb-5">
+                <div class="title ">
+                    <h6>Read Article Tips</h6>
+                    <h2>Latest News & Blog</h2>
+                </div>    
+                </div>
+
+                <div class="row row-gap-4">
+                    <div class="col-md-6 col-lg-4 position-relative">
+                        <img src="asset/img/home/logo155.jpg" class="w-100 position-relative" alt="farmer carring a bascket of vegetable">
+                        <div class="card ps-2 py-4 border-0">
+                            <h6>Organic Fruits</h6>
+                            <a href="blog-details.html">
+                            <h4 class="fs-5 py-2 text-dark ">Unicode UTF8 Character Sets They Sltimate Guide Systems</h4>
+                            </a>
+                                <div class="read-more position-relative">
+                                    <a href="#" class="text-capitalize fw-semibold">read more</a>
+                                    <i class="fas fa-angle-double-right position-absolute read"  aria-hidden="true"></i>
+                                </div>
+                        </div>
+
+                            <span class="date text-center text-white position-absolute">25 february</span>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 position-relative">
+                        <img src="asset/img/home/logo156.jpg" class="w-100 position-relative" alt="farmer on agricultural land">
+                        <div class="card ps-2 py-4 border-0">
+                            <h6>Organic Fruits</h6>
+                            <a href="blog-details.html">
+                                <h4 class="fs-5 py-2 text-dark ">Quality Foods Requirments For Every Human Body’s</h4>
+                            </a>
+                                <div class="read-more position-relative">
+                                    <a href="#" class="text-capitalize fw-semibold">read more</a>
+                                    <i class="fas fa-angle-double-right position-absolute read"  aria-hidden="true"></i>
+                                </div>
+                        </div>
+
+                            <span class="date text-center text-white position-absolute">25 february</span>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 position-relative ">
+                        <img src="asset/img/home/logo157.jpg" class="w-100 position-relative" alt="fruit and vegetable">
+                        <div class="card ps-2 py-4 border-0">
+                            <h6>Organic Fruits</h6>
+                            <a href="blog-details.html">
+                                <h4 class="fs-5 py-2 text-dark ">Choose Awesome Vegetables For Your Daily Life Routine</h4>
+                            </a>
+                                <div class="read-more position-relative">
+                                    <a href="#" class="text-capitalize fw-semibold">read more</a>
+                                    <i class="fas fa-angle-double-right position-absolute read"  aria-hidden="true"></i>
+                                </div>
+                        </div>
+                            <span class="date text-center text-white position-absolute">25 february</span>
+                    </div>
+                </div>
+
+                <div class="paper1 position-absolute  ">
+                <img src="asset/img/home/logo105.png" class="w-75" alt="paper">
+                </div>
+                <div class="paper2 position-absolute bottom-0  ">
+                <img src="asset/img/home/logo106.png" class="w-75" alt="paper">
+                </div>
+                <div class="paper3 position-absolute">
+                <img src="asset/img/home/logo153.png" class="w-75" alt="paper">
+                </div>
+                <div class="paper4 position-absolute">
+                    <img src="asset/img/home/logo154.png" class="img-fluid" alt="paper">
+                </div>
+                
+
+        </div>
+    </section>
+
+
+    
+
+            <div class="brands  position-relative py-5 m-0">
+                <div class="slider ">
+                    <div id="owl-carousel1" class="slide-track brand-carousel  d-flex gap-5">
+                        <div class="slide item">
+                            <img src="asset/img/home/logo164.png" class=""  alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo165.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo166.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo167.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo168.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo169.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo164.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo165.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo166.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo167.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo168.png" class="" alt="brands logo" />
+                        </div>
+                        <div class="slide item">
+                            <img src="asset/img/home/logo169.png" class="" alt="brands logo" />
+                        </div>
+                    </div>
+
+                    
+
+
+                <div class="position-absolute bg-food1">
+                    <img src="asset/img/home/logo158.png"  class="img-fluid " alt="tomato">
+                </div>
+                <div class="position-absolute bg-food2">
+                    <img src="asset/img/home/logo159.png"  class="img-fluid" alt="cherry">
+                </div>
+                <div class="position-absolute bg-food3">
+                    <img src="asset/img/home/logo160.png"  class="img-fluid" alt="beans">
+                </div>
+                <div class="position-absolute bg-food4">
+                    <img src="asset/img/home/logo161.png"  class="img-fluid" alt="capsicum">
+                </div>
+                <div class="position-absolute bg-food5">
+                    <img src="asset/img/home/logo162.png"  class="img-fluid" alt="graps">
+                </div>
+                <div class="position-absolute bg-food6">
+                    <img src="asset/img/home/logo163.png"  class="img-fluid" alt="capsicum">
+                </div>
+                
+            </div>
+            </div>
+
+        <footer class="footer " id="footer">
+            <div class="contact-information position-relative">
+
+                <div class="position-absolute bg-food7">
+                    <img src="asset/img/home/logo171.png"  class="img-fluid" alt="cactus">
+                </div>
+                <div class="position-absolute bg-food8">
+                    <img src="asset/img/home/logo172.png"  class="img-fluid" alt="carrot">
+                </div>
+                <div class="position-absolute bg-food9">
+                    <img src="asset/img/home/logo174.png"  class="img-fluid" alt="camsicum">
+                </div>
+
+                <div class="subscribe position-relative  py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                            <h2 class="text-white">Newsletter Subscribe</h2>    
+                            </div>
+                            <div class="col-lg-7 offset-lg-1">
+                                <form action="">
+                                <div class="row mt-3">
+                                    <div class="col-md-8">
+                                    <div class="mb-3 p-2">
+                                    <input type="email" class="email form-control text-white bg-transparent shadow-none border-0 border-bottom rounded-0 w-100" id="exampleFormControlInput1" placeholder="Email">
+                                    </div>    
+                                    </div>
+                                
+                                <div class="col-md-4">
+                                <div class="custom-btn subscribe-btn  bg-orange-color  rounded-2 fw-bolder text-center   ">
+                                <span  class="text-capitalize text-white ">subscribe now</span>
+                                <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                            </div>        
+                                </div>
+                            </div>    
+                            </form>
+                            </div>
+                        </div>
+                        <div class="right-bathengan position-absolute  ">
+                            <img src="asset/img/home/logo139.png" class="img-fluid " alt="eggplant">
+                        </div>
+                    </div>
+                </div>
+    
+
+                <div class="contact-us py-5 mt-3">
+                    <div class="container">
+                    <div class="row row-gap-4">
+                        <div class="col-md-6 col-lg-4 mb-4 quick-list ">
+                            <h4 class="text-white mb-4 ms-4 text-capitalize">Quick Links</h4>
+                            <div class="d-flex  justify-content-around ">
+                            <ul class="m-0 p-0  ">
+                                <li>
+                                    <a href="#">about us</a>
+                                </li>
+                                <li>
+                                    <a href="#">services</a>
+                                </li>
+                                <li>
+                                    <a href="#">our projects</a>
+                                </li>
+                                <li>
+                                    <a href="#">meet farmers</a>
+                                </li>
+                                <li>
+                                    <a href="#">latest news</a>
+                                </li>
+                                <li>
+                                    <a href="#">vegetables</a>
+                                </li>
+                            </ul>
+                            <ul class="m-0 p-0">
+                                <li>
+                                    <a href="#">documentation</a>
+                                </li>
+                                <li>
+                                    <a href="#">elements</a>
+                                </li>
+                                <li>
+                                    <a href="#">best product</a>
+                                </li>
+                                <li>
+                                    <a href="#">technology</a>
+                                </li>
+                                <li>
+                                    <a href="#">contact us</a>
+                                </li>
+                                <li>
+                                    <a href="#">setting and privacy</a>
+                                </li>
+                            </ul>    
+                            </div>   
+                        </div>
+
+                        <div class="col-md-12 col-lg-4 text-center  social-contact ">
+                            <img src="asset/img/home/logo101.png" class="img-fluid bg-white  d-inline-block rounded-3" alt="logo">
+                            <p class="text-white mt-5 ">Sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. quis ipsum suspendisse ultrices gravida.</p>
+                            <div class="icons m-4">
+                                <a href="#"><i class="fa-brands fa-facebook-f mx-1"></i></a>
+                                <a href="#" ><i class="fab fa-twitter mx-1"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in mx-1"></i></a>
+                                <a href="#"><i class="fab fa-youtube mx-1"></i></a>   
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 contact-info">
+                        <h4 class="text-white mb-4 text-capitalize">contact us</h4>
+                            <p class="text-white mt-4">Quis autem vel eum reprehenderit voluptate velit esse quamnue</p>
+                        <ul class="text-white contact-list m-0 p-0 mt-2">
+                            <li class="d-flex">
+                                <i class="fas fa-map-marker-alt me-3 mt-2" aria-hidden="true"></i>
+                                <p class="m-0 p-0 text-white fs-6">53 Main Street, 2nd Mountain 3rd Floor, New York</p>
+                            </li>
+                            <li>
+                                <i class="far fa-envelope me-3 mt-4" aria-hidden="true"></i>
+                                <a href="tel:+012 (345) 678 99" class="text-white"  >+012 (345) 678 99</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone me-3 mt-4" aria-hidden="true"></i>
+                                <a href="mailto:support@gmail.com" class="text-white">support@gmail.com</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                <div class="mt-5 pt-5 final  d-flex justify-content-lg-between justify-content-center">
+                        <p class="text-white "> Copyright &copy; 2023 MunFirm. All Rights Reserved.</p>
+                    <div class="text-capitalize help">
+                        <a href="#">setting & privacy</a>
+                        <a href="#" class="mx-4">foqs</a>
+                        <a href="#">payment</a>
+                    </div>
+                    </div>
+                    <div class="to-top position-absolute">
+                        <a href="#">
+                            <i class="fas fa-angle-double-up" aria-hidden="true"></i>
+                        </a>
+                </div>    
+                </div>
+                </div>
+                
+            </div>       
+    </footer>
+
+    
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="asset/js/offcanvas.js"></script>
+    <script src="asset/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="vendor/owl/owl.carousel.min.js"></script>
+    <script src="asset/js/owl-carousal.js"></script>
+    <script src="asset/js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,168 @@
+@media screen and (max-width:576px)
+{
+.consultant, .nav-item i{
+    display: none !important;
+}
+.nav-link:after{
+    bottom: 0 !important;
+}
+.nav-link{
+    width: fit-content;
+}
+.custom-btn{
+    padding-right: 27px;
+}
+.shop-header .title-header {
+        font-size: 51px;
+}
+.shop-header a {
+    font-size: 18px;
+}
+.decore {
+    width: 79%;
+    left: 11%;
+}
+.subscribe .subscribe-btn{
+    margin-right: 43%;
+    
+}
+.help{
+    display: none;
+}
+.contact-info{
+    padding-left: 40px;
+    order: 2 !important;
+}
+.quick-list{
+    order: 1 !important;
+}
+.social-contact{
+    order: 0 !important;
+}
+.custom-btn{
+    padding-right: 27px;
+}
+.shop-header .header-content .content{
+    padding: 50px 50px;
+}
+.vote .OFF{
+    width: 24%;
+}
+.vote a{
+    font-size: 26px;
+}
+.vote-for-quality .vote .food-info span{
+    font-size: 20px;
+}
+.bg-food7, .bg-food8 , .bg-food9, .right-bathengan, .tomato{
+    display: none;
+}
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .consultant, .nav-item i{
+        display: none !important;
+    }
+    .nav-link:after{
+        bottom: 0 !important;
+    }
+    .nav-link{
+        width: fit-content;
+    }
+    .decore {
+        width: 74%;
+        left: 88px;
+    }
+    .help{
+        display: none;
+    }
+    .contact-info{
+        padding-left: 40px;
+        order: 2 !important;
+    }
+    .quick-list{
+        order: 1 !important;
+    }
+    .social-contact{
+        order: 0 !important;
+    }
+    .custom-btn{
+        padding-right: 27px;
+    }
+    .vote .OFF{
+        width: 24%;
+    }
+    .vote a{
+        font-size: 26px;
+    }
+    .vote-for-quality .vote .food-info span{
+        font-size: 23px;
+    }
+    .bg-food7, .bg-food8 , .bg-food9, .right-bathengan{
+        display: none;
+    }
+
+}
+@media screen and (max-width:367px){
+    .to-top {
+        bottom: 122px;
+        left: 45%;
+    }
+    .contact-information .final:before {
+        bottom: 146px;
+    }
+}
+@media screen and (min-width:799px) and (max-width:992px){
+    .nav-link:after{
+        bottom: 0 !important;
+    }
+    .nav-link{
+        width: fit-content;
+    }
+    .consultant, .nav-item i{
+        display: none !important;
+    }
+    .decore {
+        width: 74%;
+        left: 88px;
+    }
+    .help{
+        display: none;
+    }
+    .contact-info{
+        padding-left: 40px;
+        order: 2 !important;
+    }
+    .quick-list{
+        order: 1 !important;
+    }
+    .social-contact{
+        order: 0 !important;
+    }
+    .custom-btn{
+        padding-right: 27px;
+    }
+    .vote .OFF{
+        width: 24%;
+    }
+    .vote a{
+        font-size: 26px;
+    }
+    .vote-for-quality .vote .food-info span{
+        font-size: 23px;
+    }
+    .bg-food7, .bg-food8 , .bg-food9, .right-bathengan, .tomato{
+        display: none;
+    }
+
+}
+@media screen and (min-width:1500px){
+    .shop-header h2 {
+        font-size: 100px;
+    }
+    .shop-header a {
+        font-size: 32px;
+    }
+    
+}

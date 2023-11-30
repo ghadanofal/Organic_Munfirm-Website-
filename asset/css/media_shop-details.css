@@ -1,0 +1,163 @@
+@media screen and (max-width:576px)
+{
+.nav-link:after{
+    bottom: 0 !important;
+}
+.nav-link{
+    width: fit-content !important;
+}
+.custom-btn{
+    padding-right: 27px;
+}
+.shop-header .title-header {
+        font-size: 56px;
+}
+.shop-header a {
+    font-size: 17px;
+}
+.food-details h2{
+    font-size: 40px;
+}
+.subscribe .subscribe-btn{
+    margin-right: 43%; 
+}
+
+.help{
+    display: none;
+}
+.contact-info{
+    padding-left: 40px;
+    order: 2 !important;
+}
+.quick-list{
+    order: 1 !important;
+}
+.social-contact{
+    order: 0 !important;
+}
+.custom-btn{
+    padding-right: 27px;
+}
+.shop-header .header-content .content{
+    padding: 50px 50px;
+}
+.bg-food7, .bg-food8 , .bg-food9, .right-bathengan, .tomato{
+    display: none;
+}
+.nav-tabs .nav-link{
+    padding: 15px;
+}
+.carousel-indicators [data-bs-target] {
+    border-left: 0px #fff solid;
+}
+}
+@media screen and (max-width:367px){
+    .to-top {
+        bottom: 122px;
+        left: 45%;
+    }
+    .contact-information .final:before {
+        bottom: 146px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    
+    .nav-link:after{
+        bottom: 0 !important;
+    }
+    .nav-link{
+        width: fit-content;
+    }
+    .decore {
+        width: 74%;
+        left: 88px;
+    }
+    .help{
+        display: none;
+    }
+    .contact-info{
+        padding-left: 40px;
+        order: 2 !important;
+    }
+    .quick-list{
+        order: 1 !important;
+    }
+    .social-contact{
+        order: 0 !important;
+    }
+    .custom-btn{
+        padding-right: 27px;
+    }
+    .bg-food7, .bg-food8 , .bg-food9, .right-bathengan{
+        display: none;
+    }
+    .carousel-indicators [data-bs-target] {
+        border-left: 0px #fff solid;
+    }
+
+}
+@media screen and (max-width:799px){
+    .consultant, .nav-item i{
+        display: none !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        border-left: 9px #fff solid;
+    }
+    .second-section{
+    margin-top: 13rem !important;
+    }
+}
+@media screen and (min-width:799px) and (max-width:992px){
+    .nav-link:after{
+        bottom: 0 !important;
+    }
+    .nav-link{
+        width: fit-content;
+    }
+    .consultant, .nav-item i{
+        display: none !important;
+    }
+    .decore {
+        width: 74%;
+        left: 88px;
+    }
+    .help{
+        display: none;
+    }
+    .contact-info{
+        padding-left: 40px;
+        order: 2 !important;
+    }
+    .quick-list{
+        order: 1 !important;
+    }
+    .social-contact{
+        order: 0 !important;
+    }
+    .custom-btn{
+        padding-right: 27px;
+    }
+    .bg-food7, .bg-food8 , .bg-food9, .right-bathengan, .tomato{
+        display: none;
+    }
+    /* .carousel-indicators [data-bs-target] {
+        border-left: 10px #fff solid !important;
+    } */
+    .second-section{
+    margin-top: 13rem !important;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .carousel-indicators [data-bs-target] {
+        border-left: 6px #fff solid !important;
+    }
+}
+@media screen and (min-width:1500px){
+    .shop-header h2 {
+        font-size: 100px;
+    }
+    .shop-header a {
+        font-size: 32px;
+    }
+    
+}

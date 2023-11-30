@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shop Details</title>
+    <link rel="icon" href="asset/img/home/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Munfirm is fully responsive, Agriculture &amp; Organic Food Joomla 4 Template for  Agriculture, Fruits &amp; Vegetable, Beekeeping, dairy farm, organic food">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontowesome/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="asset/css/blog_details.css">
+    <!-- <link rel="stylesheet" href="asset/css/blog_details.mini.css"> -->
+    <link rel="stylesheet" href="asset/css/media_blog_details.css">
+    <!-- <link rel="stylesheet" href="asset/css/media_blog_details.mini.css"> -->
+    
+    
+</head>
+<body>
+
+
+    <div class="scroll-up position-fixed z-3 opacity-0 invisible">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- start navbar -->
+<nav class="navbar navbar-expand-lg fixed-top z-2">
+    <div class="container-fluid  ">
+
+    <a class="navbar-brand logo" href="#">
+        <img src="asset/img/home/logo101.png" class="img-fluid" alt="logo">
+    </a>
+    
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5  mb-2 mb-lg-0">
+            <li class="nav-item p-0 ">
+                <a class="nav-link active  " href="index.html" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-0 ">
+                <a class="nav-link " href="portfolio.html" aria-disabled="true">portfolio</a>
+            </li>
+            <li class="nav-item p-0 ">
+                <a class="nav-link  " href="blog.html" aria-disabled="true">Blog</a>
+            </li>
+            <li class="nav-item p-0 ">
+                <a class="nav-link  " href="shop.html" aria-disabled="true">shop</a>
+            </li>
+            <li class="nav-item p-0 last d-flex justify-content-lg-center align-items-lg-center ">
+                <a class="nav-link  " href="contact.html" aria-disabled="true">contact</a>
+                <i class="fas fa-shopping-basket"></i>
+            </li>
+            </ul> 
+        </div> 
+
+        <div class="consultant d-flex justify-content-center align-items-center  column-gap-5">
+        <a href="#" class="text-dark ">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        </a>
+        <div class="custom-btn shop bg-orange-color  rounded-2 fw-bolder text-center   ">
+            <span  class="text-capitalize text-white ">consultant</span>
+            <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+        </div>
+        
+        <div id="overlay"></div>
+
+        <div id="menu-button">
+            <div class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="offcanvas" class="hidden" class=" ">
+                
+                <div id="close-button" class="d-flex justify-content-end fs-3 text-orange">X</div> 
+                <!-- Submit form in the off-canvas menu -->
+                <div id="form-container" class="form-container" style="
+                background-color: #444;" >
+                    <h2 class="text-capitalize text-center fs-5 mt-4">get appoinment</h2>
+                    <form id="submit-form" class="">
+                        <form action="#" method="post" class="py-5 my-4">
+                            <div class="row justify-content-center mt-4">
+                                <div class="col-md-10">
+                                    <input type="text" id="inputname" class="mx-1 form-control  shadow-non contact-item mb-2"  placeholder="Name" aria-describedby="passwordHelpBlock">
+                                </div>
+            
+                                <div class="col-md-10">
+                                    <input type="email" id="inputemail" class="mx-1 form-control  shadow-non contact-item mb-2" style="
+                background-color: #444;" placeholder="Email" aria-describedby="passwordHelpBlock">
+                                </div>
+            
+                                <div class="col-md-10">
+                                    <input type="text" id="inputaddress" class="mx-1 form-control  shadow-non contact-item my-2" style="
+                background-color: #444;" placeholder="Address" aria-describedby="passwordHelpBlock">
+                                </div>
+            
+                                <div class="col-md-10">
+                                    <textarea class="mx-1 form-control shadow-none   contact-item  my-2" placeholder="Message.." style="
+                background-color: #444;" id="exampleFormControlTextarea1" rows="7"></textarea>
+                                </div>
+                                
+                                
+                                <div class="col-sm-10 col-md-10 col-lg-10 my-4">
+                                    <div class="custom-btn submitee  bg-orange-color   rounded-2 fw-bolder text-center   ">
+                                    <span  class="text-capitalize text-white ">submite now</span>
+                                    <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                                    </div>        
+                                </div>
+            
+                            </div>
+                    </form>
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    </nav>
+
+<header class="shop-header vh-100" id="shop-header">
+    <div class="container h-100">
+        <div class="header-content  text-capitalize d-flex justify-content-center align-items-center h-100  ">
+        <div class="content bg-green  text-center text-white">
+        <h2 class="title-header">Blog Standard</h2>
+            <div class="links">
+                <a href="index.html">home</a>
+                <a href="#">/ Blog Standard</a>
+                <a href="#">/ Organic Fruits</a>
+                <a href="#">/ Unicode UTF8 Character Sets They Sltimate Guide Systems</a>
+            </div>    
+        </div>
+        </div>
+    </div>
+</header>
+
+<!--  start Articals Details section -->
+<section class="second 12 my-5 " id="artical">
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                
+                <div class="artical-info d-flex ">
+                    <div class="me-4">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span>Windstripe</span>
+                    <span class="ms-4">|</span>
+                    </div>
+                    
+                    <div>
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>25 February</span>  
+                    </div>
+                </div>  
+                
+                
+
+                <h1 class="my-4 py-4">Unicode UTF8 Character Sets They Sltimate Guide Systems</h1>
+                
+                <div>
+                    <img src="asset/img/blog-details/logo113.jpg" class="img-fluid" alt="family in farm">
+                </div>
+                <div class="my-4">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cones sequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui do lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div>
+
+                <div class="py-4">
+                    <h4>
+                        Ultimate Digital Clean-Up Checklist Are You Prepared
+                    </h4>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam estqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                    </p>
+
+                    <ul class="desc-list list-unstyled">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <p>
+                                The Complete Guide To Switching From HTTP To HTTPS
+                            </p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <p> Ultimate Digital Clean-Up Checklist: Are You Prepared For The New Year??</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <p>How To Roll Out New Features Without Hurting Loyal Users</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Character Sets: The Ultimate Guide</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <p>How To Choose A Font — A Step-By-Step Guide!</p>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+                    <div class="container">
+                        <div class="quote">
+                        <i class="fas fa-quote-left text-dark "></i>
+                        <span class=""> Use Google CrUX To Analyze And Compare Performance Of JS Frameworks</span>
+                        <i class="fas fa-quote-right text-dark"></i>
+                        </div>
+                    </div>
+
+                    <p class="pt-4">
+                        No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful son agains there anyone who loves or pursues or desires to obtain pain
+                    </p>
+
+                    <div class="shared d-flex justify-content-center">
+                    <span class="text-capitalize">share projects: </span>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>    
+                    </div>
+                    
+                    <div class="comment d-flex justify-content-between">
+                        <p class="mb-0">0 comment</p>
+                        <ul class="list-unstyled">
+                        <li class="nav-item dropdown text-black">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Log in
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Desquz</a></li>
+                            <li><a class="dropdown-item" href="#">Facebook</a></li>
+                            <li><a class="dropdown-item" href="#">Twitter</a></li>
+                            <li><a class="dropdown-item" href="#">Google</a></li>
+                            </ul>
+                        </li>    
+                        </ul>
+                        
+                    </div>
+
+                    <div class="discussion my-4 d-flex">
+                        <p>G</p>
+                        <div class="mb-3 ms-4 w-100">
+                            <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Start the discussion..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-md-4 mb-4">
+                            <p class="log text-uppercase d-flex justify-content-lg-end">log in with</p>
+                            <div class="log-in d-flex justify-content-lg-end">
+                            <i class="fa-brands fa-facebook-f "></i>
+                            <i class="fa-brands fa-twitter mx-2"></i>
+                            <i class="fa-solid fa-g"></i>     
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-8">
+                            <p class="log text-uppercase">
+                                OR SIGN UP WITH DISQUS
+                            </p>
+                            <form action="">
+                                <div class="">
+                                    <input type="text" class="form-control border-1" id="inputtext" placeholder="Name">
+                                </div>
+                                <div class="">
+                                    <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                                </div>
+                                <div class="">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="password">
+                                </div>
+                            </form>
+                            <p class="note">
+                                Please access our <span>Privacy Policy</span> to learn what personal data Disqus collects and your choices about how it is used. All users of our service are also subject to our <span>Terms of Service</span>.
+                            </p>
+                            <div class="arrow d-flex justify-content-end">
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="liked mt-4 d-flex justify-content-between">
+                        <div class="d-flex">
+                            <a href="#">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <ul>
+                                <li class="d-flex">
+                                    <a href="#" class="share">Shared</a>
+                                    <div class="sharee">
+                                        <ul class="list-unstyled d-flex share-icon">
+                                            <li>
+                                                <i class="fa-brands fa-twitter mx-2"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fa-brands fa-facebook-f "></i>
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-envelope mx-2"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-link"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="text-capitalize">
+                            <a href="#">best</a>
+                            <a href="#" class="mx-3">newest</a>
+                            <a href="#">oldest</a>
+                        </div>
+                    </div>
+                    
+                    <div class="Be d-flex justify-content-center align=items-center p-4">
+                            <p>
+                                Be the first to comment.
+                            </p>
+                    </div>
+
+                    <div class="mt-4 disqus-list d-flex justify-content-between">
+                    <ul class="list-unstyled ">
+                        <li class="float-item">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>Subscibe</sp>
+                        </li>
+                        <li class="float-item">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>Prinacy</span>
+                        </li>
+                        <li class="float-item">
+                            <i class="fa-solid fa-exclamation"></i>
+                            <span class="text-capitalize">dont shell my date</span>
+                        </li>
+                        <div class="clear-fix">
+
+                        </div>
+                    </ul>
+                    <div>
+                        <a href="#" class="text-uppercase">disqus</a>
+                    </div>
+                    </div>
+
+
+            </div>
+                    
+                    
+            
+                    
+            
+            
+            <div class="col-sm-12 col-md-12 col-lg-4 ">
+                <div class="founder-info text-center my-5 py-5">
+                    <img src="asset/img/blog-details/logo115.jpg" class="m-3" alt="">
+                    <h6 class="mt-3">Somalia D. Silva</h6>
+                    <span class="text-green">CO-Founder</span>
+                    <p class="w-75 text m-auto">Amet consecte adipiscing elitse doeiusmod tempor incididunt labre et dolore magna aliqua lacus</p>
+                    <ul class="social-icon list-unstyled d-flex justify-content-center align-items-center mt-4">
+                        <li class="mx-2">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li class="mx-2">
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <li class="mx-2">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </li>
+                        <li class="mx-2">
+                            <i class="fa-brands fa-youtube"></i>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="search-bar border py-2 px-2 me-2">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 border-0 shadow-none search" type="search" placeholder="Search..." aria-label="Search">
+                        <i class="fas fa-search d-flex align-items-center me-3" aria-hidden="true"></i>
+                    </form>
+                </div>
+
+                <div class="category-section my-4">
+                    <div class="shop-title mt-4 d-flex ">
+                        <i class="fa-solid fa-leaf me-3"></i>
+                        <h4>Category</h4>    
+                        </div>
+                        
+                        <ul class="category-list pt-2 pb-3">
+                            <li>
+                                <a href="">Organic Fruits</a>
+                            </li>
+                            <li>
+                                <a href="">Fresh Vegetables</a>
+                            </li>
+                            <li>
+                                <a href="">Fresh Vegetables</a>
+                            </li>
+                            <li>
+                                <a href="">Sea Foods</a>
+                            </li>
+                            <li>
+                                <a href="">Chiken Eggs</a>
+                            </li>
+                            <li>
+                                <a href="">Milk & Meat</a>
+                            </li>
+                        </ul>
+                </div>
+                
+                <div class="news-section my-4">
+                    <div class="shop-title mt-4 d-flex ">
+                        <i class="fa-solid fa-leaf me-3"></i>
+                        <h4>Recent News</h4>    
+                        </div>
+                        
+                        <ul class="news-list pt-2 pb-3 my-4 list-unstyled">
+                            <li>
+                                <img src="asset/img/blog-details/logo116.jpg" alt="farmer">
+                                <div class="info">
+                                    <p class="my-0">Design And Buildsc Newsletter Mind</p>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        <span>25 February</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="asset/img/blog-details/logo117.jpg" alt="farmer">
+                                <div class="info">
+                                    <p class="my-0">Design And Buildsc Newsletter Mind</p>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        <span>25 February</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="asset/img/blog-details/logo118.jpg" alt="farmer">
+                                <div class="info">
+                                    <p class="my-0">Design And Buildsc Newsletter Mind</p>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        <span>25 February</span>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+            
+                <div class="popular-section">
+                    <div class="shop-title mt-4 pt-4 d-flex ">
+                        <i class="fa-solid fa-leaf me-3"></i>
+                        <h4>Popular Tags</h4>    
+                        </div>
+            
+                        <div>
+                        <ul class="link list-unstyled my-3 d-flex flex-wrap">
+                            <li>
+                                <a href="/tags-page/organic">Organic</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/vegetables">Vegetables</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/farming">Fresh Food</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/farming">Farming</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/fruits">Fruits</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/sea-foods">Sea Foods</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/3">25</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/4">26</a>
+                            </li>
+                            <li>
+                                <a href="/tags-page/5">27</a>
+                            </li>
+                        </ul>
+                        </div>
+                </div>
+                
+        
+            </div>
+
+
+                
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--  start footer section -->
+<footer class="footer " id="footer">
+    <div class="contact-information position-relative">
+
+        <div class="position-absolute bg-food7">
+            <img src="asset/img/shop/logo119.png"  class="img-fluid" alt="cactos">
+        </div>
+        <div class="position-absolute bg-food8">
+            <img src="asset/img/shop/logo120.png"  class="img-fluid" alt="carrot">
+        </div>
+        <div class="position-absolute bg-food9">
+            <img src="asset/img/shop/logo122.png"  class="img-fluid" alt="tomato">
+        </div>
+
+        <div class="subscribe position-relative  py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                    <h2 class="text-white">Newsletter Subscribe</h2>    
+                    </div>
+                    <div class="col-lg-7 offset-lg-1">
+                        <form action="">
+                        <div class="row mt-3">
+                            <div class="col-md-8">
+                            <div class="mb-3 p-2">
+                            <input type="email" class="email form-control text-white bg-transparent shadow-none border-0 border-bottom rounded-0 w-100" id="exampleFormControlInput1" placeholder="Email">
+                            </div>    
+                            </div>
+                        
+                        <div class="col-md-4">
+                        <div class="custom-btn subscribe-btn  bg-orange-color  rounded-2 fw-bolder text-center   ">
+                        <span  class="text-capitalize text-white ">subscribe now</span>
+                        <i class="fas fa-angle-double-right text-white position-absolute"  aria-hidden="true"></i>
+                    </div>        
+                        </div>
+                    </div>    
+                    </form>
+                    </div>
+                </div>
+                <div class="right-bathengan position-absolute  ">
+                    <img src="asset/img/shop/logo121.png" class="img-fluid " alt="eggplant">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-us py-5 mt-3">
+            <div class="container">
+            <div class="row row-gap-4">
+                <div class="col-md-6 col-lg-4 mb-4 quick-list ">
+                    <h4 class="text-white mb-4 ms-4 text-capitalize">Quick Links</h4>
+                    <div class="d-flex  justify-content-around ">
+                    <ul class="m-0 p-0  ">
+                        <li>
+                            <a href="#">about us</a>
+                        </li>
+                        <li>
+                            <a href="#">services</a>
+                        </li>
+                        <li>
+                            <a href="#">our projects</a>
+                        </li>
+                        <li>
+                            <a href="#">meet farmers</a>
+                        </li>
+                        <li>
+                            <a href="#">latest news</a>
+                        </li>
+                        <li>
+                            <a href="#">vegetables</a>
+                        </li>
+                    </ul>
+                    <ul class="m-0 p-0">
+                        <li>
+                            <a href="#">documentation</a>
+                        </li>
+                        <li>
+                            <a href="#">elements</a>
+                        </li>
+                        <li>
+                            <a href="#">best product</a>
+                        </li>
+                        <li>
+                            <a href="#">technology</a>
+                        </li>
+                        <li>
+                            <a href="#">contact us</a>
+                        </li>
+                        <li>
+                            <a href="#">setting and privacy</a>
+                        </li>
+                    </ul>    
+                    </div>   
+                </div>
+
+                <div class="col-md-12 col-lg-4 text-center  social-contact ">
+                    <img src="asset/img/shop/logo101.png" class="img-fluid bg-white  d-inline-block rounded-3" alt="logo">
+                    <p class="text-white mt-5 ">Sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. quis ipsum suspendisse ultrices gravida.</p>
+                    <div class="icons m-4">
+                        <a href="#"><i class="fa-brands fa-facebook-f mx-1"></i></a>
+                        <a href="#" ><i class="fab fa-twitter mx-1"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in mx-1"></i></a>
+                        <a href="#"><i class="fab fa-youtube mx-1"></i></a>   
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 contact-info">
+                <h4 class="text-white mb-4 text-capitalize">contact us</h4>
+                    <p class="text-white mt-4">Quis autem vel eum reprehenderit voluptate velit esse quamnue</p>
+                <ul class="text-white contact-list m-0 p-0 mt-2">
+                    <li class="d-flex">
+                        <i class="fas fa-map-marker-alt me-3 mt-2" aria-hidden="true"></i>
+                        <p class="m-0 p-0 text-white fs-6">53 Main Street, 2nd Mountain 3rd Floor, New York</p>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope me-3 mt-4" aria-hidden="true"></i>
+                        <a href="tel:+012 (345) 678 99" class="text-white"  >+012 (345) 678 99</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone me-3 mt-4" aria-hidden="true"></i>
+                        <a href="mailto:support@gmail.com" class="text-white">support@gmail.com</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+
+        <div class="mt-5 pt-5 final  d-flex justify-content-lg-between justify-content-center">
+                <p class="text-white "> Copyright &copy; 2023 MunFirm. All Rights Reserved.</p>
+            <div class="text-capitalize help">
+                <a href="#">setting & privacy</a>
+                <a href="#" class="mx-4">foqs</a>
+                <a href="#">payment</a>
+            </div>
+            </div>
+            <div class="to-top position-absolute">
+                <a href="#">
+                    <i class="fas fa-angle-double-up" aria-hidden="true"></i>
+                </a>
+        </div>    
+        </div>
+        </div>
+    </div>
+    
+</footer>
+
+
+
+
+
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="asset/js/offcanvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+    <script src="asset/js/main.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,360 @@
+@media screen and (max-width:660px){
+    .right-orange{
+        display: none;
+    }
+    .off-fruit {
+        height: 196vh !important;
+    }
+}
+@media screen and (max-width:860px){
+.right-orange{
+    display: none;
+}
+.left-orange img {
+    width: 67% !important;
+}
+.off-fruit {
+    height: 196vh !important;
+}
+}
+@media screen and (max-width:580px){
+    .news .date{
+        top: 60%;
+    }
+}
+@media screen and (max-width:576px){
+    
+h1{
+    font-size: 50px;
+}
+.consultant, .nav-item i{
+    display: none !important;
+}
+.nav-link:after{
+    bottom: 0 !important;
+}
+.nav-link{
+    width: fit-content;
+}
+.custom-btn{
+    padding-right: 36px;
+}
+.organic-logo{
+    top: 55% !important;
+}
+.header{
+    height: inherit;
+}
+.organic-logo1{
+    top: 7% !important;
+    left: 60%;
+}
+h2{
+    font-size: 30px !important;
+}
+.photo:hover .card-info {
+    bottom: -2px;
+}
+.video{
+    width: 94%;
+}
+.off-fruit {
+    height: 196vh !important;
+}
+.off-fruit .timers>*{
+    width: 26%;
+}
+.off-fruit .support {
+    right: 27px;
+    left: 10%;
+}
+.left-orange{
+    bottom: 76px;
+}
+.left-orange img{
+    width: 48% !important;
+}
+.right-orange{
+    display: none;
+}
+.cherry {
+    bottom: 9%;
+    right: 4%;
+}
+.cut-orange {
+    right: 0%;
+    top: -10px;
+}
+.right-review-section .old-farmer{
+    width: 67%;
+}
+.news .paper3 {
+    bottom: 7%;
+    right: 10%;
+}
+.news .paper3{
+    display: none;
+}
+.subscribe .subscribe-btn{
+    margin-right: 43%;
+    
+}
+.help{
+    display: none;
+}
+.contact-info{
+    padding-left: 40px;
+    order: 2 !important;
+}
+.quick-list{
+    order: 1 !important;
+}
+.social-contact{
+    order: 0 !important;
+}
+.news .date {
+    top: 54%;
+}
+}
+
+@media screen and (max-width:460px){
+    .off-fruit {
+        height: 300vh !important;
+    }
+}
+@media screen and (max-width:367px){
+    .to-top {
+        bottom: 122px;
+        left: 45%;
+    }
+    .contact-information .final:before {
+        bottom: 146px;
+    }
+}
+@media screen and (width=574px){
+    .news .date{
+        top: 68%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+h1{
+    font-size: 50px;
+}
+.right{
+    display: none !important;
+}
+.nav-link:after{
+    bottom: 0 !important;
+}
+.nav-link:after{
+    bottom: 0 !important;
+}
+.nav-link{
+    width: fit-content;
+}
+
+.organic-logo{
+    top: 55% !important;
+}
+.title h2{
+    font-size: 36px !important;
+}
+.farmers .organic-logo3 {
+    left: 30%;
+    bottom: 7%;
+}
+.left-orange{
+    bottom: 0%;
+}
+.left-orange img{
+    width: 70% !important;
+}
+.off-fruit{
+    height: 140vh;
+}
+.left-orange{
+    bottom: 0%;
+}
+.left-orange img{
+    width: 67% !important;
+}
+.right-orange{
+    bottom: 0;
+}
+.videos .video {
+    left: 7%;
+}
+.reviews .title h2{
+    font-size: 34px !important;
+}
+.right-review-section .old-farmer{
+    width: 60%;
+}
+.news .date{
+    top: 62%;
+}
+.right-review-section .old-farmer{
+    width: 67%;
+}
+.cherry {
+    bottom: 31%;
+    right: 53%;
+}
+.contact-info{
+    padding-left: 40px;
+    order: 2 !important;
+}
+.quick-list{
+    order: 1 !important;
+}
+.social-contact{
+    order: 0 !important;
+}
+.social-contact p{
+    width: 75%;
+    margin: auto;
+}
+.off-fruit .support{
+    left: 21%;
+}
+.card-info {
+    left: 12px;
+}
+.consultant, .nav-item i{
+    display: none !important;
+}
+}
+@media screen and (min-width:778px) and (max-width:992px){
+    .nav-link:after{
+        bottom: 0 !important;
+    }
+    .nav-link{
+        width: fit-content;
+    }
+.organic-logo {
+    top: 48% !important;
+}
+.organic-logo1 {
+    top: 8% !important;
+    left: 51%;
+}
+.farmers .organic-logo3 {
+    left: 30%;
+    bottom: 5%;
+}
+.title h2 {
+    font-size: 37px;
+}
+.details p{
+    font-size: 20px;
+}
+.off-fruit{
+    height: 124vh;
+}
+.left-orange{
+    bottom: 4%;
+}
+.left-orange img{
+    width: 67% !important;
+}
+.right-orange{
+    bottom: 0;
+}
+.cherry{
+    right: 53%;
+    bottom: 32%;
+}
+.videos .video {
+    right: 6%;
+}
+.off-fruit .support {
+    left: 20%;
+}
+.card-info {
+    bottom: 6%;
+    left: 14px
+}
+.right-review-section .old-farmer{
+    width: 64%;
+}
+.contact-info{
+    padding-left: 40px;
+    order: 2 !important;
+}
+.quick-list{
+    order: 1 !important;
+}
+.social-contact{
+    order: 0 !important;
+}
+.social-contact p{
+    width: 75%;
+    margin: auto;
+
+}
+.consultant, .nav-item i{
+    display: none !important;
+}
+}
+@media screen and (min-width:1700px) and (max-width:2000px){
+    .off-fruit .support{
+        left: 34% !important;
+    }
+
+}
+
+@media screen and (min-width:1400px){
+
+    .off-fruit {
+        height: 100vh;
+    }
+    .card-info {
+        bottom: 6%;
+        left: 11px
+    }
+    .w-90{
+        width: 84%;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .header{
+        height: fit-content !important;
+    }
+    
+.sale{
+top: 55%;
+}
+.left-orange{
+    bottom: 4%;
+}
+.left-orange img{
+    width: 67% !important;
+}
+.right-orange{
+    bottom: 0;
+}
+.cherry{
+    right: 31%;
+    bottom: 19%;
+}
+.videos .video {
+    right: 7%;
+}
+
+.off-fruit .support {
+    bottom: -96px;
+    left: 28%;
+    padding: 16px 80px;
+}
+.get-in-touch{
+    padding: 11px 40px 11px 28px
+}
+/* .support h6{
+    font-size: 36px;
+} */
+.header{
+    height: 120vh;
+}
+}
